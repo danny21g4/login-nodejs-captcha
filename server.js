@@ -27,11 +27,11 @@ app.post('/login', function (req, res) {
 
   // config for your database
   var config = {
-    user: "ctdev",
-    password: "qscdf!@#s@#$4",
-    server: "182.71.137.235",
-    database: "cttest",
-    port: 12226,
+    user: "user",
+    password: "password",
+    server: "servername",
+    database: "database",
+    port: 0000,
     dialect: "mssql",
 
     dialectOptions: {
